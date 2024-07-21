@@ -1,0 +1,53 @@
+{
+        "type": "flying",
+        "localizedName": "flarebut",
+    "description": "???",
+        "speed": 4,
+        "accel": 0.1,
+        "drag": 0.01,
+        "flying": true,
+        "health": 300,
+        "armor": 100,
+        "engineOffset": 4,
+"engineSize": 2,
+"TargetAir": true,
+        "circleTarget": true,
+        "outlineColor": "#000000",
+    "weapons": [
+{
+"name": "",
+"mirror": false,
+"alternate": false,
+"top": false,
+"rotate": false,
+"x": 0,
+"y": 3,
+"reload": 0,
+"shoot": {
+"shots": 1,
+"shotDelay": 0
+}
+"inaccuracy": 0
+"shootSound": "",
+"recoil": 0,
+"bullet": {
+"type": "BasicBulletType",
+"sprite": "missile-large",
+"damage": 99999,
+"keepVelocity": "true",
+"speed": 20,
+"lifetime": 30,
+"width": 9,
+"height": 16,
+"backColor": "#00eeff",
+"frontColor": "#FFFFFF",
+"shrinkY": 0.5,
+"trailLength": 4,
+"trailColor": "#00eeff",
+"trailEffect": "hitSquaresColor"
+"trailRotation": true,
+"trailInterval": 2,
+}
+}
+]
+}
